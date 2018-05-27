@@ -1,0 +1,50 @@
+.tajuk {
+  font-size: 40px;
+  font-family: cursive;
+  color: silver;
+  text-shadow:1px 3px #ff0054;
+}
+
+body {
+  background-color: #DFCEEC;
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+  width: 100%
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+
+.button {
+padding: 55px 55px;
+margin: 0 auto;
+border: 0px none;
+border-radius: 10px;
+background-color: #365E6F;
+font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #365eff;
+}
+
+#mula, .lagi {
+  width: 100px;
+  height: 40px;
+  margin: auto;
+}
+
+#timer {
+  line-height: inherit;
+  font-style: italic;
+}
