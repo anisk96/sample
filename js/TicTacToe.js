@@ -17,6 +17,9 @@ $(function() {
     countUp();
     $('#mula').hide();
     $('.lagi').show();
+    $('.lagi').click(function(){
+      location.reload();
+    });
     $(".button").click(function(){
       if(player1){
         $(this).addClass("X");
